@@ -1,0 +1,285 @@
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .logo {
+        max-width: 80% !important;
+        margin-left: 30px !important;
+    }
+
+    .jssteps {
+        margin: 20px 0px auto !important;
+
+    }
+
+    .create_account_text {
+        margin-top: 30px !important;
+    }
+
+    .custom_button {
+        margin: 10px 0px !important;
+
+    }
+
+    .social_media_icons {
+        visibility: hidden;
+    }
+
+    .steps_img {
+        max-width: 95% !important;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+
+    .custom_button3 {
+        width: 100% !important;
+        float: right;
+        margin-top: 10px !important;
+    }
+
+    .job_search_button {
+        margin: 10px 15px 10px 15px !important;
+    }
+
+    .modal_image {
+        margin: 0px !important;
+    }
+
+    .modal_button {
+        text-align: center !important;
+    }
+
+    .banner_title {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+    }
+
+    .b_text {
+        top: 250px;
+        left: 0;
+        right: 0;
+    }
+
+    .banner_title h1 {
+        font-size: 40px;
+    }
+
+    .js_interview_banner {
+        max-width: 100%;
+    }
+
+    .interview_msg {
+        width: 100%;
+    }
+
+    .interview_card {
+        height: 335px;
+        width: 100%;
+
+    }
+
+    .int_card_head {
+        top: 75px;
+        left: 14%;
+        right: 8%;
+    }
+
+    .int_card_head h6 {
+        font-size: 15px;
+    }
+
+    .int_card_content {
+        padding: 118px 0px 0px 29px;
+    }
+
+    .int_card_content p {
+        font-size: 10px;
+        margin: 2px;
+    }
+
+    .custom_button6 {
+        height: 40px;
+        padding: 2px;
+        width: 150px;
+    }
+
+    .int_card_button {
+        padding: 1% 25% 0% 25%;
+    }
+
+    .tab_contents {
+        padding: 5% !important;
+        margin: 20px 0px !important;
+    }
+
+    .cr_article {
+        position: absolute;
+        width: 80%;
+        padding: 15px;
+        top: 4%;
+        right: 4%;
+        overflow: auto;
+        height: 149px;
+    }
+    
+    #carouselExampleFade{
+        height: 180px !important;
+    }
+    
+    #jsdashboard_section{
+        padding: 10px;
+    }
+    
+    .custom_button_dash{
+        width: 230px !important;
+    }
+    .card-counter{
+        margin: 5% 0 !important;
+    }
+    .js_carousel{
+        margin-top: 0px;
+    }
+    .frontside,
+    .backside {
+    width: 100% !important;
+    }
+    .js_dash_links .card{
+    transform: rotate(0deg) !important;
+    border: 1px solid #1c1b51;
+    background-color: #F9F9F9;
+    }
+    .count-numbers3 {
+        bottom: 60px !important;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo {
+        max-width: 70% !important;
+        margin: auto !important
+    }
+
+    .jssteps {
+        margin: 20px 0px auto !important;
+
+    }
+
+    .create_account_text {
+        margin-top: 30px !important;
+    }
+
+    .custom_button {
+        margin: 10px 0px !important;
+        width: 100% !important;
+
+    }
+
+    .social_media_icons {
+        position: ;
+    }
+
+    .steps_img {
+        max-width: 80% !important;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+
+    .job_search_button {
+        margin: 10px 15px 10px 15px !important;
+    }
+
+    .modal_image {
+        margin: 0px !important;
+    }
+
+    .modal_button {
+        text-align: center !important;
+    }
+
+    .b_text {
+        top: 300px;
+        left: 0;
+        right: 0;
+    }
+
+    .interview_msg {
+        width: 100%;
+    }
+    .cr_article {
+        width: 60% !important;
+        overflow: auto;
+        height: 250px !important;
+    }
+    #carouselExampleFade{
+        height: 350px !important;
+    }
+    #jsdashboard_section{
+        padding: 10px;
+    }
+    .custom_button_dash{
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo {
+        max-width: 25% !important;
+        margin: 0 auto !important
+    }
+
+    .jssteps {
+        margin: 20px 0px auto !important;
+        display: grid !important;
+    }
+
+    .custom_button {
+        margin: 10px 0px !important;
+        width: 150% !important;
+
+    }
+
+    .social_media_icons {
+        position: ;
+    }
+
+    .modal_image {
+        margin: 0 50px !important;
+    }
+
+    .modal_button {
+        text-align: center !important;
+    }
+
+    .b_text {
+        top: 300px;
+    }
+    .cr_article {
+        width: 60% !important;
+        overflow: auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .logo {
+        max-width: 10% !important;
+        margin-left: 50px !important;
+    }
+    .cr_article {
+        width: 40% !important;
+        overflow: auto;
+        height: 300px !important;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .logo {
+        max-width: 10% !important;
+        margin-left: 50px !important;
+    }
+
+}
